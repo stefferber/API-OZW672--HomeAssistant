@@ -19,8 +19,8 @@ http://192.168.X.X/main.app?SessionID=****YourSessionafterlogin***&Section=webap
 ...I recommend little playing with webapi interface in your local network (after login to OZW):    
 http://192.168.X.X/main.app?SessionID=****YourSessionafterlogin***&Section=webapi  
 ![](https://github.com/vencakratky/API-OZW672--HomeAssistant/blob/master/webapi.jpg)  
-## NInstructions   
-1.) Create helper entities in *Settings->Helpers* custom entities *input_number* and *input_select* with Values *Automatic*, *Comfort*, *Reduced*. In my case are entities *input_number.nastaveni_teploty_kotle* = *_settings_temperature_boiler*, *input_number.utlumova_teplota_kotle* = *attenuating_temperature_boiler* , *input_select.kotel_druh_provozu* = *boiler_operation_type*    
+## Instructions   
+1.) Create helper entities in *Settings->Helpers* custom entities *input_number* and *input_select* with Values *Automatic*, *Comfort*, *Reduced*. In my case are entities *input_number.nastaveni_teploty_kotle* = *input_number.settings_temperature_boiler*, *input_number.utlumova_teplota_kotle* = *input_number.attenuating_temperature_boiler* , *input_select.kotel_druh_provozu* = *input_select.boiler_operation_type*    
 ![](https://github.com/vencakratky/API-OZW672--HomeAssistant/blob/master/entities.jpg)  
 2.) Add to *configuration.yaml* helpers entities and API strings -> see configuration.yaml 
 
