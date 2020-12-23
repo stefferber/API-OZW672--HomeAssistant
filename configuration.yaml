@@ -44,7 +44,7 @@ sensor:
   - platform: rest
  #   name: kotel_teplota_kotle
     name: boiler_temp
-    resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=3068
+    resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=1219
     value_template: '{{ value_json.Data.Value | float }}'
     unit_of_measurement: "°C"
     device_class: temperature
@@ -58,6 +58,12 @@ sensor:
     name: boiler_condition
     resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=3059
     value_template: '{{ value_json.Data.Value }}'
+  - platform: rest
+    name: boiler_temp_supply
+    resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=1232
+    value_template: '{{ value_json.Data.Value | float }}'
+    unit_of_measurement: "°C"
+    device_class: temperature    
   - platform: rest
  #   name: kotel_teplota_zpatecky
     name: boiler_temp_return
@@ -89,7 +95,7 @@ sensor:
   - platform: rest
  #   name: temp_current skutecna_teplota_TV
     name: boiler_temp_DHW
-    resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=3215
+    resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=1220
     value_template: '{{ value_json.Data.Value }}'
     unit_of_measurement: "°C"
     device_class: temperature
