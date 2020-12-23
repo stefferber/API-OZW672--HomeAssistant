@@ -1,7 +1,7 @@
 sensor:
 # Create SessionID in local network with user and password -> change ***
   - platform: rest
-    resource: http://192.168.X.X/api/auth/login.json?user***&pwd=***
+    resource: http://192.168.X.X/api/auth/login.json?user=***&pwd=***
     name: sid_token
     value_template: '{{ value_json.SessionId }}'
     scan_interval: 86400
