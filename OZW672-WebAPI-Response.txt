@@ -1,0 +1,1561 @@
+
+Request:
+./api/menutree/list.json?SessionId=73e61d90-5f4d-4485-b99a-45b0393e2d11&Id=1181
+Response:
+{
+  "MenuItems":
+    [
+  
+    ],
+  "DatapointItems":
+    [
+  
+    {
+      "Id": "1182",
+      "Address": "0x505f0",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "76",
+        "Long": "Aussentemperatur gedämpft",
+        "Short": "TAussen gedämpft"
+      }  
+  },
+  
+  
+    {
+      "Id": "1183",
+      "Address": "0x505f2",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "77",
+        "Long": "Aussentemperatur gemischt",
+        "Short": "TAussen gemischt"
+      }  
+  },
+  
+  
+    {
+      "Id": "1184",
+      "Address": "0x2d051e",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "422",
+        "Long": "Raumtemperatur 1 Istwert",
+        "Short": "TRaum1-Ist"
+      }  
+  },
+  
+  
+    {
+      "Id": "1185",
+      "Address": "0x2d0593",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "75",
+        "Long": "Raumtemperatur-Sollwert Aktuell",
+        "Short": "TRaumSollw Aktuell"
+      }  
+  },
+  
+  
+    {
+      "Id": "1186",
+      "Address": "0x210518",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "459",
+        "Long": "Vorlauftemperatur Istwert Heizkreis 1",
+        "Short": "TVorl-Ist HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "1187",
+      "Address": "0x210667",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3733",
+        "Long": "Vorlaufsollwert H1",
+        "Short": "Vorlaufsollwert H1"
+      }  
+  },
+  
+  
+    {
+      "Id": "1188",
+      "Address": "0x1504a2",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "1397",
+        "Long": "Pumpendrehzahl",
+        "Short": "Pumpendrehzahl"
+      }  
+  },
+  
+  
+    {
+      "Id": "1189",
+      "Address": "0x2e051e",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "423",
+        "Long": "Raumtemperatur 2 Istwert",
+        "Short": "TRaum2-Ist"
+      }  
+  },
+  
+  
+    {
+      "Id": "1190",
+      "Address": "0x2e0593",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2305",
+        "Long": "Raumtemperatur-Sollwert 2",
+        "Short": "Raumtemp-Sollwert 2"
+      }  
+  },
+  
+  
+    {
+      "Id": "1191",
+      "Address": "0x2e0c81",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "460",
+        "Long": "Vorlauftemperatur Istwert Heizkreis 2",
+        "Short": "TVorl-Ist HK2"
+      }  
+  },
+  
+  
+    {
+      "Id": "1192",
+      "Address": "0x220667",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3734",
+        "Long": "Vorlaufsollwert H2",
+        "Short": "Vorlaufsollwert H2"
+      }  
+  },
+  
+  
+    {
+      "Id": "1193",
+      "Address": "0x31052f",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3519",
+        "Long": "Trinkwassertemperatur-Istwert Oben (B3)",
+        "Short": "TWW-Ist Oben B3\/BMU"
+      }  
+  },
+  
+  
+    {
+      "Id": "1194",
+      "Address": "0x310532",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "349",
+        "Long": "Brauchwassertemperatur-Sollwert aktuell",
+        "Short": "TBW-Sollw aktuell"
+      }  
+  },
+  
+  
+    {
+      "Id": "1195",
+      "Address": "0x250b33",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "5072",
+        "Long": "Trinkwasser Ladetemperatur",
+        "Short": "TWW Ladetemperatur"
+      }  
+  },
+  
+  
+    {
+      "Id": "1196",
+      "Address": "0x5021d",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "289",
+        "Long": "Prozess-Sig Schienenvorlauf",
+        "Short": "ProzSig Schienenvorl"
+      }  
+  },
+  
+  
+    {
+      "Id": "1197",
+      "Address": "0x50534",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2847",
+        "Long": "Pufferspeichertemperatur-Istwert Oben (B4)",
+        "Short": "TPuffer-Ist Oben"
+      }  
+  }
+  
+    ],
+  "WidgetItems":
+    [
+  
+    ],
+  "Result": {
+    "Success": "true"
+  }
+
+
+
+Request:
+./api/menutree/list.json?SessionId=73e61d90-5f4d-4485-b99a-45b0393e2d11&Id=1005
+Response:
+{
+  "MenuItems":
+    [
+  
+    ],
+  "DatapointItems":
+    [
+  
+    {
+      "Id": "1006",
+      "Address": "0x3106b9",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3516",
+        "Long": "Trinkwassertemperatur-Nennsollwert",
+        "Short": "TWW-NennSollw"
+      }  
+  },
+  
+  
+    {
+      "Id": "1007",
+      "Address": "0x3106ba",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3517",
+        "Long": "Trinkwassertemperatur-Reduziertsollwert",
+        "Short": "TWW-RedSollw"
+      }  
+  },
+  
+  
+    {
+      "Id": "1008",
+      "Address": "0x250722",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3522",
+        "Long": "Trinkwasserfreigabe",
+        "Short": "TWW-Freigabe"
+      }  
+  },
+  
+  
+    {
+      "Id": "1009",
+      "Address": "0x310759",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "439",
+        "Long": "Legionellenfunktion",
+        "Short": "Legionellenfunktion"
+      }  
+  },
+  
+  
+    {
+      "Id": "1010",
+      "Address": "0x310738",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2885",
+        "Long": "Legionellenfunktion Periodizität",
+        "Short": "LegioFunkt Periode"
+      }  
+  },
+  
+  
+    {
+      "Id": "1011",
+      "Address": "0x31075e",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3523",
+        "Long": "Legionellenfunktion Tag",
+        "Short": "LegioFunkt Tag"
+      }  
+  },
+  
+  
+    {
+      "Id": "1012",
+      "Address": "0x31075a",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2882",
+        "Long": "Zeitpunkt für Legionellenfunktion",
+        "Short": "Zeit LegioFunkt"
+      }  
+  },
+  
+  
+    {
+      "Id": "1013",
+      "Address": "0x1106bc",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "355",
+        "Long": "Legionellenfunktion Sollwert",
+        "Short": "LegionellenfunktSollw"
+      }  
+  },
+  
+  
+    {
+      "Id": "1014",
+      "Address": "0x310496",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3059",
+        "Long": "Verweildauer auf Legionellenfunktions-Sollwert",
+        "Short": "Dauer LegioFktSollw"
+      }  
+  },
+  
+  
+    {
+      "Id": "1015",
+      "Address": "0x3108ab",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3152",
+        "Long": "Zirkulationspumpenbetrieb während Legionellenfkt",
+        "Short": "ZirkPumpBetr LegioFkt"
+      }  
+  },
+  
+  
+    {
+      "Id": "1016",
+      "Address": "0x25072e",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3659",
+        "Long": "Trinkwasser Zirkulationspumpe Freigabe",
+        "Short": "TWW Zirkpump Freigabe"
+      }  
+  },
+  
+  
+    {
+      "Id": "1017",
+      "Address": "0x250689",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3799",
+        "Long": "Trinkwasser Zirkulationspumpe Taktbetrieb",
+        "Short": "TWW Zirkpump Taktbetr"
+      }  
+  }
+  
+    ],
+  "WidgetItems":
+    [
+  
+    ],
+  "Result": {
+    "Success": "true"
+  }
+}
+
+
+Request:
+./api/menutree/list.json?SessionId=73e61d90-5f4d-4485-b99a-45b0393e2d11&Id=1165
+Response:
+{
+  "MenuItems":
+    [
+  
+    ],
+  "DatapointItems":
+    [
+  
+    {
+      "Id": "1166",
+      "Address": "0xd0519",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "54",
+        "Long": "Kesseltemperatur-Istwert",
+        "Short": "TKessel-Ist"
+      }  
+  },
+  
+  
+    {
+      "Id": "1167",
+      "Address": "0x190923",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "642",
+        "Long": "Kesseltemperatur-Sollwert",
+        "Short": "TKess-Sollw"
+      }  
+  },
+  
+  
+    {
+      "Id": "1168",
+      "Address": "0x11051a",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "492",
+        "Long": "Rücklauftemperatur-Istwert",
+        "Short": "TRückl-Ist"
+      }  
+  },
+  
+  
+    {
+      "Id": "1169",
+      "Address": "0xd0c82",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "4213",
+        "Long": "Aktuelle Gebläsedrehzahl",
+        "Short": "Gebläsedrehzahl"
+      }  
+  },
+  
+  
+    {
+      "Id": "1170",
+      "Address": "0x110c83",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "4214",
+        "Long": "Aktuelle Gebläseansteuerung",
+        "Short": "Gebläseansteuerung"
+      }  
+  },
+  
+  
+    {
+      "Id": "1171",
+      "Address": "0xd0c85",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "4216",
+        "Long": "Relative Leistung",
+        "Short": "Relative Leistung"
+      }  
+  },
+  
+  
+    {
+      "Id": "1172",
+      "Address": "0x93034",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "4384",
+        "Long": "Betriebsanzeige FA",
+        "Short": "Betriebsanzeige FA"
+      }  
+  },
+  
+  
+    {
+      "Id": "1173",
+      "Address": "0x152ff0",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3357",
+        "Long": "Ionisationsstrom Istwert",
+        "Short": "IonStrom"
+      }  
+  },
+  
+  
+    {
+      "Id": "1174",
+      "Address": "0x50011",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "25",
+        "Long": "Gerätebetriebsstunden",
+        "Short": "Gerätebetriebsstunden"
+      }  
+  },
+  
+  
+    {
+      "Id": "1175",
+      "Address": "0x39093f",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "4386",
+        "Long": "Startzähler Brenner",
+        "Short": "Start Brenner"
+      }  
+  },
+  
+  
+    {
+      "Id": "1176",
+      "Address": "0x192feb",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3352",
+        "Long": "Betriebsstunden Heizbetrieb",
+        "Short": "BetrStdHz"
+      }  
+  },
+  
+  
+    {
+      "Id": "1177",
+      "Address": "0x192fec",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3353",
+        "Long": "Betriebsstunden Brauchwasserbetrieb",
+        "Short": "BetrStdBw"
+      }  
+  },
+  
+  
+    {
+      "Id": "1178",
+      "Address": "0x192fed",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3354",
+        "Long": "Betriebsstunden ext. Wärmeanforderung",
+        "Short": "BetrStdZone"
+      }  
+  },
+  
+  
+    {
+      "Id": "1179",
+      "Address": "0x5052a",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2839",
+        "Long": "Kollektortemperatur-Istwert 1 (B6)",
+        "Short": "TKoll-Ist 1 B6"
+      }  
+  },
+  
+  
+    {
+      "Id": "1180",
+      "Address": "0x150893",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3900",
+        "Long": "Betriebsstunden Solarertrag",
+        "Short": "BetrStd Solarertrag"
+      }  
+  }
+  
+    ],
+  "WidgetItems":
+    [
+  
+    ],
+  "Result": {
+    "Success": "true"
+  }
+
+
+
+./api/menutree/list.json?SessionId=73e61d90-5f4d-4485-b99a-45b0393e2d11&Id=1159
+Response:
+{
+  "MenuItems":
+    [
+  
+    ],
+  "DatapointItems":
+    [
+  
+    {
+      "Id": "1160",
+      "Address": "0x507a3",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3904",
+        "Long": "Status Heizkreis 1",
+        "Short": "Status HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "1161",
+      "Address": "0x507a5",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3905",
+        "Long": "Status Heizkreis 2",
+        "Short": "Status HK2"
+      }  
+  },
+  
+  
+    {
+      "Id": "1162",
+      "Address": "0x507a1",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3903",
+        "Long": "Status Trinkwasser",
+        "Short": "Status TWW"
+      }  
+  },
+  
+  
+    {
+      "Id": "1163",
+      "Address": "0x507a9",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3907",
+        "Long": "Status Kessel",
+        "Short": "Status Kessel"
+      }  
+  },
+  
+  
+    {
+      "Id": "1164",
+      "Address": "0x507ad",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3909",
+        "Long": "Status Solar",
+        "Short": "Status Solar"
+      }  
+  }
+  
+    ],
+  "WidgetItems":
+    [
+  
+    ],
+  "Result": {
+    "Success": "true"
+  }
+}
+
+
+Request:
+./api/menutree/list.json?SessionId=73e61d90-5f4d-4485-b99a-45b0393e2d11&Id=955
+Response:
+{
+  "MenuItems":
+    [
+  
+    ],
+  "DatapointItems":
+    [
+  
+    {
+      "Id": "956",
+      "Address": "0x2d058e",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3428",
+        "Long": "Raumtemperatur Komfortsollwert Heizkreis 1",
+        "Short": "TRaum-Komfsoll HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "957",
+      "Address": "0x2d0590",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "465",
+        "Long": "Raumtemperatur Reduziertsollwert Heizkreis 1",
+        "Short": "TRaum-RedSollw HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "958",
+      "Address": "0x2d0592",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "463",
+        "Long": "Raumtemperatur Frostschutzsollwert Heizkreis 1",
+        "Short": "TRaum-FrostSollw HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "959",
+      "Address": "0x2d05f6",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "428",
+        "Long": "Heizkennlinie 1 Steilheit",
+        "Short": "Heizkennl1-Steilheit"
+      }  
+  },
+  
+  
+    {
+      "Id": "960",
+      "Address": "0x2d0610",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "195",
+        "Long": "Heizkennlinien-Parallelverschiebung",
+        "Short": "Heizkenn-ParallVersch"
+      }  
+  },
+  
+  
+    {
+      "Id": "961",
+      "Address": "0x2d060b",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "479",
+        "Long": "Heizkennlinie Adaption Heizkreis 1",
+        "Short": "HeizkennlinieAdaptHK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "962",
+      "Address": "0x3905fd",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "430",
+        "Long": "Sommer\/Winter Umschalttemperatur Heizkreis 1",
+        "Short": "So\/Wi-UmschalttempHK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "963",
+      "Address": "0x2d0640",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3827",
+        "Long": "Tagesheizgrenze HK1",
+        "Short": "Tagesheizgrenze HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "964",
+      "Address": "0x210663",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "490",
+        "Long": "Vorlauftemperatur-Minimalbegrenzung Heizkreis 1",
+        "Short": "TVorl-MinBegr HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "965",
+      "Address": "0x210662",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "488",
+        "Long": "Vorlauftemperatur-Maximalbegrenzung Heizkreis 1",
+        "Short": "TVorl-MaxBegr HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "966",
+      "Address": "0x2d0603",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "477",
+        "Long": "Raumtemperatur Einflussfaktor Heizkreis 1",
+        "Short": "TRaum-EinflFakt HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "967",
+      "Address": "0x2d0614",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3829",
+        "Long": "Raumtemperaturbegrenzung Heizkreis 1",
+        "Short": "TRaum-BegrenzungHK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "968",
+      "Address": "0x2d0602",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2616",
+        "Long": "Raum-Sollwertüberhöhung HK1 (Schnellaufheizung)",
+        "Short": "TRaum-SollwÜberhöhHK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "969",
+      "Address": "0x2d05e8",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2612",
+        "Long": "Schnellabsenkung Heizkreis 1",
+        "Short": "Schnellabsenkung HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "970",
+      "Address": "0x2d0607",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2453",
+        "Long": "Einschaltzeitoptimierung max. Vorverlegung HK1",
+        "Short": "Einschaltopt MaxZeit1"
+      }  
+  },
+  
+  
+    {
+      "Id": "971",
+      "Address": "0x2d0609",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2455",
+        "Long": "Ausschaltzeitoptimierung max Vorverlegung HK1",
+        "Short": "Ausschaltopt MaxZeit1"
+      }  
+  },
+  
+  
+    {
+      "Id": "972",
+      "Address": "0x2d059e",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3436",
+        "Long": "Beginn-Raumtemp-Reduziertsollwert-Anhebung HK1",
+        "Short": "BeginnTRaumRedSAnhHK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "973",
+      "Address": "0x2d059d",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3437",
+        "Long": "Ende-Raumtemp-Reduziertsollwert-Anhebung HK1",
+        "Short": "EndeTRaumRedSAnhHK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "974",
+      "Address": "0x2d067b",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "1437",
+        "Long": "Estrich-Austrocknungsfunktion",
+        "Short": "EstrichTrocknungFunkt"
+      }  
+  },
+  
+  
+    {
+      "Id": "975",
+      "Address": "0x2d068a",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3448",
+        "Long": "Estrich Sollwert manuell HK1",
+        "Short": "Estrich Soll man HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "976",
+      "Address": "0x112f95",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3271",
+        "Long": "Drehzahlstufe Kesselpumpe im Auslegungspunkt",
+        "Short": "NqmodNenn"
+      }  
+  },
+  
+  
+    {
+      "Id": "977",
+      "Address": "0x1104ab",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "4342",
+        "Long": "Modulierende Pumpe PWM Minimum",
+        "Short": "Mod Pumpe PWM Minimum"
+      }  
+  },
+  
+  
+    {
+      "Id": "978",
+      "Address": "0x192f88",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "1638",
+        "Long": "Aussentemperatur bei max. Wärmebedarf",
+        "Short": "TAussen max Wärmebed"
+      }  
+  },
+  
+  
+    {
+      "Id": "979",
+      "Address": "0x392f82",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3254",
+        "Long": "Kesselsollwert bei Normaussentemperatur",
+        "Short": "TkSNorm"
+      }  
+  },
+  
+  
+    {
+      "Id": "980",
+      "Address": "0x252fe5",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3376",
+        "Long": "Grenze für Temperaturüberhöhung der dT-Regelung",
+        "Short": "dTUeberhBegr"
+      }  
+  },
+  
+  
+    {
+      "Id": "981",
+      "Address": "0x192f8a",
+      "DpSubKey": "0",
+      "WriteAccess": "true",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3261",
+        "Long": "Delta Vor- \/ Rücklauf bei Norm-Aussentemperatur",
+        "Short": "dTkTrNenn"
+      }  
+  }
+  
+    ],
+  "WidgetItems":
+    [
+  
+    ],
+  "Result": {
+    "Success": "true"
+  }
+
+
+Response:
+{
+  "MenuItems":
+    [
+  
+    ],
+  "DatapointItems":
+    [
+  
+    {
+      "Id": "1216",
+      "Address": "0x5006b",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "19",
+        "Long": "Fehlermeldung",
+        "Short": "Fehlermeldung"
+      }  
+  },
+  
+  
+    {
+      "Id": "1217",
+      "Address": "0x93008",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3370",
+        "Long": "Interner Diagnosecode",
+        "Short": "DiagnoseCode"
+      }  
+  },
+  
+  
+    {
+      "Id": "1218",
+      "Address": "0x2d0090",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2217",
+        "Long": "Wartungsmeldung",
+        "Short": "Wartungsmeldung"
+      }  
+  },
+  
+  
+    {
+      "Id": "1219",
+      "Address": "0xd0519",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "54",
+        "Long": "Kesseltemperatur-Istwert",
+        "Short": "TKessel-Ist"
+      }  
+  },
+  
+  
+    {
+      "Id": "1220",
+      "Address": "0x31052f",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3519",
+        "Long": "Trinkwassertemperatur-Istwert Oben (B3)",
+        "Short": "TWW-Ist Oben B3\/BMU"
+      }  
+  },
+  
+  
+    {
+      "Id": "1221",
+      "Address": "0x5052a",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2839",
+        "Long": "Kollektortemperatur-Istwert 1 (B6)",
+        "Short": "TKoll-Ist 1 B6"
+      }  
+  },
+  
+  
+    {
+      "Id": "1222",
+      "Address": "0x93034",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "4384",
+        "Long": "Betriebsanzeige FA",
+        "Short": "Betriebsanzeige FA"
+      }  
+  },
+  
+  
+    {
+      "Id": "1223",
+      "Address": "0x507aa",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3907",
+        "Long": "Status Kessel",
+        "Short": "Status Kessel"
+      }  
+  },
+  
+  
+    {
+      "Id": "1224",
+      "Address": "0x507ae",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3909",
+        "Long": "Status Solar",
+        "Short": "Status Solar"
+      }  
+  },
+  
+  
+    {
+      "Id": "1225",
+      "Address": "0x507a2",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3903",
+        "Long": "Status Trinkwasser",
+        "Short": "Status TWW"
+      }  
+  },
+  
+  
+    {
+      "Id": "1226",
+      "Address": "0x507a4",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3904",
+        "Long": "Status Heizkreis 1",
+        "Short": "Status HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "1227",
+      "Address": "0x507a6",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3905",
+        "Long": "Status Heizkreis 2",
+        "Short": "Status HK2"
+      }  
+  },
+  
+  
+    {
+      "Id": "1228",
+      "Address": "0x41021f",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "3033",
+        "Long": "Aussentemperatur LPB",
+        "Short": "Aussentemperatur LPB"
+      }  
+  },
+  
+  
+    {
+      "Id": "1229",
+      "Address": "0x50534",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2847",
+        "Long": "Pufferspeichertemperatur-Istwert Oben (B4)",
+        "Short": "TPuffer-Ist Oben"
+      }  
+  },
+  
+  
+    {
+      "Id": "1230",
+      "Address": "0x2d051e",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "422",
+        "Long": "Raumtemperatur 1 Istwert",
+        "Short": "TRaum1-Ist"
+      }  
+  },
+  
+  
+    {
+      "Id": "1231",
+      "Address": "0x2d0593",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "75",
+        "Long": "Raumtemperatur-Sollwert Aktuell",
+        "Short": "TRaumSollw Aktuell"
+      }  
+  },
+  
+  
+    {
+      "Id": "1232",
+      "Address": "0x210518",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "459",
+        "Long": "Vorlauftemperatur Istwert Heizkreis 1",
+        "Short": "TVorl-Ist HK1"
+      }  
+  },
+  
+  
+    {
+      "Id": "1233",
+      "Address": "0x2e051e",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "423",
+        "Long": "Raumtemperatur 2 Istwert",
+        "Short": "TRaum2-Ist"
+      }  
+  },
+  
+  
+    {
+      "Id": "1234",
+      "Address": "0x2e0593",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "2305",
+        "Long": "Raumtemperatur-Sollwert 2",
+        "Short": "Raumtemp-Sollwert 2"
+      }  
+  },
+  
+  
+    {
+      "Id": "1235",
+      "Address": "0x2e0c81",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "460",
+        "Long": "Vorlauftemperatur Istwert Heizkreis 2",
+        "Short": "TVorl-Ist HK2"
+      }  
+  },
+  
+  
+    {
+      "Id": "1236",
+      "Address": "0x110c86",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "4217",
+        "Long": "Aktuelle Regeldifferenz",
+        "Short": "Regeldifferenz"
+      }  
+  },
+  
+  
+    {
+      "Id": "1237",
+      "Address": "0x5021d",
+      "DpSubKey": "0",
+      "WriteAccess": "false",
+      "Text": {
+        "CatId": "2",
+        "GroupId": "2",
+        "Id": "289",
+        "Long": "Prozess-Sig Schienenvorlauf",
+        "Short": "ProzSig Schienenvorl"
+      }  
+  }
+  
+    ],
+  "WidgetItems":
+    [
+  
+    ],
+  "Result": {
+    "Success": "true"
+  }
+}
