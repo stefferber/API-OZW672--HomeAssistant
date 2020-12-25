@@ -28,3 +28,41 @@ http://192.168.X.X/main.app?SessionID=****YourSessionafterlogin***&Section=webap
 
 # Result
 ![](https://github.com/vencakratky/API-OZW672--HomeAssistant/blob/master/Result.jpg)
+
+# Mapping Table
+
+This mapping is for OZW672 Version 6 with Brötje SB120C and using ![Brötje "System-Handbuch ISR-Plus"](https://polo.broetje.de/pdf/systemhandbuch_isr.pdf) as of 01.09.2009. P# is the Brötje "Parameter" and Web ID is the REST identifier.
+
+|P#  |German Name                                   |Alternative German Name                |Standard Value|Web ID|Home Assistant name            |Comment|
+|----|----------------------------------------------|---------------------------------------|--------------|------|-------------------------------|-------|
+|712 |Raumtemperatur Reduziertsollwert Heizkreis 1  |Reduziertsollwert                      |16            |957   |boiler_temp_settings_reduced   |       |
+|714 |Raumtemperatur Frostschutzsollwert Heizkreis 1|                                       |10            |958   |                               |       |
+|720 |Heizkennlinie 1 Steilheit                     |                                       |1,5           |959   |boiler_heating_curve           |       |
+|721 |Heizkennlinien-Parallelverschiebung           |Kennlinie Verschiebung                 |0             |960   |                               |       |
+|726 |Heizkennlinie Adaption Heizkreis 1            |                                       |0             |961   |                               |       |
+|1610|Trinkwassertemperatur-Nennsollwert            |Nennsollwert                           |55            |1006  |boiler_temp_DHW_setpoint       |       |
+|1612|Trinkwassertemperatur-Reduziertsollwert       |Reduziertsollwert                      |40            |1007  |                               |       |
+|8000|Status Heizkreis 1                            |                                       |0             |1160  |boiler_status_heating_circuit_1|       |
+|8001|Status Heizkreis 2                            |                                       |0             |1161  |boiler_status_heating_circuit_2|       |
+|8003|Status Trinkwasser                            |                                       |0             |1162  |boiler_status_DHW              |       |
+|8005|Status Kessel                                 |                                       |              |1163  |boiler_status                  |       |
+|8310|Kesseltemperatur-Istwert                      |                                       |              |1166  |                               |       |
+|8310|Kesseltemperatur-Istwert                      |                                       |              |1219  |boiler_temp                    |       |
+|8314|Rücklauftemperatur-Istwert                    |                                       |              |1168  |boiler_temp_return             |       |
+|8700|Aussentemperatur                              |                                       |              |?     |                               |       |
+|8703|Aussentemperatur gedämpft                     |                                       |0             |1182  |                               |       |
+|8704|Aussentemperatur gemischt                     |                                       |0             |1183  |boiler_temp_outside            |       |
+|8740|Raumtemperatur 1 Istwert                      |Raumtemperatur 1                       |20            |1230  |boiler_temp_room               |       |
+|8741|Raumtemperatur Komfortsollwert Heizkreis 1    |Komfortsollwert                        |20            |956   |boiler_temp_settings_comfort   |       |
+|8741|Raumtemperatur-Sollwert Aktuell               |Raumsollwert 1                         |20            |1231  |                               |       |
+|8743|Vorlauftemperatur Istwert Heizkreis 1         |                                       |60            |1232  |boiler_temp_supply             |       |
+|8761|Heizkreismischer 2 Auf                        |                                       |0             |?     |                               |       |
+|8762|Heizkreismischer 2 Zu                         |                                       |0             |?     |                               |       |
+|8765|Drehzahl Heizkreispumpe 2                     |                                       |0             |?     |                               |       |
+|8795|Drehzahl Heizkreispumpe P                     |                                       |0             |?     |                               |       |
+|8820|Trinkwasserpumpe Q3                           |                                       |0             |?     |                               |       |
+|8825|Drehzahl Trinkwasserpumpe                     |                                       |0             |?     |                               |       |
+|8830|Trinkwassertemperatur-Istwert Oben (B3)       |Trinkwassertemperatur 1                |0             |1193  |                               |       |
+|8830|Trinkwassertemperatur-Istwert Oben (B3)       |Trinkwassertemperatur 1                |0             |1220  |boiler_temp_DHW                |       |
+|8831|Trinkwassersollwert                           |Brauchwassertemperatur-Sollwert aktuell|55            |1194  |                               |       |
+|N.A.|Fehlermeldung                                 |                                       |              |1216  |boiler_error_message           |       |
