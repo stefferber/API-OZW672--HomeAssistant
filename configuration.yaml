@@ -25,7 +25,7 @@ sensor:
   - platform: rest
 #    name: kotel_topna_krivka
     name: boiler_heating_curve
-    resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=958
+    resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=959
     value_template: '{{ value_json.Data.Value | float }}'
     device_class: temperature
  # - platform: rest
@@ -81,7 +81,7 @@ sensor:
   - platform: rest
  #   name: kotel_venkovni_teplota
     name: boiler_temp_outside
-    resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=1182
+    resource_template: http://192.168.X.X/api/menutree/read_datapoint.json?SessionId={{ states.sensor.sid_token.state }}&Id=1183
     value_template: '{{ value_json.Data.Value | float }}'
     unit_of_measurement: "°C"
     device_class: temperature
