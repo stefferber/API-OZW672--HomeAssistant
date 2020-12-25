@@ -31,7 +31,7 @@ http://192.168.X.X/main.app?SessionID=****YourSessionafterlogin***&Section=webap
 
 # Mapping Table
 
-This mapping is for OZW672 Version 6 with Brötje SB120C and using ![Brötje "System-Handbuch ISR-Plus"](https://polo.broetje.de/pdf/systemhandbuch_isr.pdf) as of 01.09.2009. P# is the Brötje "Parameter" and Web ID is the REST identifier.
+This mapping is for OZW672 Version 6 with Brötje SB120C and using [Brötje "System-Handbuch ISR-Plus"](https://polo.broetje.de/pdf/systemhandbuch_isr.pdf) as of 01.09.2009. P# is the Brötje "Parameter" and Web ID is the REST identifier.
 
 |P#  |German Name                                   |Alternative German Name                |Standard Value|Web ID|Home Assistant name            |Comment|
 |----|----------------------------------------------|---------------------------------------|--------------|------|-------------------------------|-------|
